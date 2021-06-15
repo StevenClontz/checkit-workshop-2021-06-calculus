@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (constant multiple, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            <li> <me>{{fn1}}({{xp}}) = {{f1}} </me></li>
+            <li><me>{{fn2}}({{xe}}) = \sqrt[{{b}}]{  {{xe}}^{ {{a}} } } + \frac{ {{c}} } { {{xe}} ^{{d}}} </me></li>
+            <li><me>{{fn3}}({{xt}}) = {{f3}}</me></li>
+        </ol>
+        
+
+    </statement>
+    <answer>
+        <ol>
+            <li><me>{{fn1}}&apos;({{xp}}) =  {{df1}} </me></li>
+            <li><me>{{fn2}}&apos;({{xe}}) = {{df2}}</me></li>
+            <li><me>{{fn3}}&apos;({{xt}}) = {{df3}}</me></li>
+        </ol>
+
+    </answer>
+</exercise>
+

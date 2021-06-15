@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    Find the first four terms of the partial sum sequence for: <m>{{sf0}}, {{sf1}}, {{sf2}}, {{sf3}}, \ldots</m>
+                </li>
+                <li>
+                    Find the first four terms of the partial sum sequence for: <m>{{sd0}}, {{sd1}}, {{sd2}}, {{sd3}}, \ldots</m>
+                </li>
+                
+                <li>
+                    Does <m>\displaystyle\sum_{m = {{initial}} }^{\infty} {{First}}-{{Next}}</m> converge or diverge?  If it converges, what does it converge to?
+                </li>
+            </ol>
+        </p>
+        
+    </statement>
+    <answer>
+        <p>
+            <ol>
+                <li>
+                    <m>{{SF0}}, {{SF1}}, {{SF2}}, {{SF3}}, \ldots</m>
+                </li>
+                <li>
+                    <m>{{SD0}}, {{SD1}}, {{SD2}}, {{SD3}}, \ldots</m>
+                </li>
+                <li>
+                    The series converges to <m>{{Limit}}</m>
+                </li>
+            </ol>
+        </p>
+    </answer>
+</exercise>

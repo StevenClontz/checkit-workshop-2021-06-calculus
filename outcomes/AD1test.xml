@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            A certain function <m>y=p(x)</m> has its local linearization at <m>a={{a}}</m> given by <m>L(x)={{L}}</m>.
+            <ol>
+                <li>What are the values of <m>p({{a}})</m> and <m>p'({{a}})</m>? Why?</li>
+                <li>Estimate the value of <m>p({{adx}})</m>. </li>
+                <li>Suppose that <m>p'({{a}})=0</m> and you know that <m>p''(x) {{d2_ineq}} 0</m> for <m>x {{loc_ineq}} {{a}}</m>. Is your estimate in (b) too large or too small? Justify your answer (Why? How do you know?).</li>
+                <li>Suppose that <m>p''(x) {{d2_comp}} 0</m> for <m>x {{loc_comp}} {{a}}</m>. Use this fact and the additional information above to sketch an accurate graph of <m>y=p(x)</m> near <m>x={{a}}</m>.</li>
+<!--                 do we need the d2_comp to actually be the complement or do we want to choose it at random? -->
+            </ol>
+        </p>
+    </statement>
+    <answer>
+        <ol>
+            <li><m>p({{a}}) = {{La}}</m>;   <m>p'({{a}}) = {{Lpa}}</m></li> <!-- DR: Names here follow conventions I learned in WeBWorK -->
+            <li><m>p({{adx}}) \approx {{Ladx}}</m></li> <!-- Ladx = La + adx * Lpa -->
+            <!-- DR: Notes so I can figure out how to write the answer -->
+            <!-- If d2_ineq -->
+            <li>The estimate is {{error}}.</li>
+            <li>D</li>
+        </ol>
+    </answer>
+</exercise>

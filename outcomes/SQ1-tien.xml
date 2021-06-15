@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <ol>
+            <li>
+                Use your intuition and pattern-recognition to find the next 3 values for each of the following sequences:
+                <ul>
+                    {{#Given}}
+                    <li><m>{{t0}}, {{t1}}, {{t2}}, {{t3}}, {{t4}},\ldots</m></li>
+                    {{/Given}},
+                </ul>
+            </li>
+            <li>
+                Find a closed form for each of the above sequences.
+            </li>
+            <li>
+                Find the first 5 terms of each of the following sequences:
+                <ul>
+                    {{#Closed}}
+                    <li><m>a_n={{Formula}}.</m></li>
+                    {{/Closed}},
+                </ul>
+            </li>
+            <li>
+                Find the next 5 terms of the recursively defined sequence where <m>a_0={{initialR}}</m> and <m>a_{n+1}=a_n+({{diffR}})</m>.
+            </li>
+            <li>
+                For the recursive sequence defined above, explain why <m>a_n={{FormulaR}}</m> is the closed form for <m>a_n</m>.
+            </li>
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            <li>
+                <ul>
+                    {{#Given}}
+                    <li><m> {{t5}}, {{t6}},  {{t7}}</m></li>
+                    {{/Given}},
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    {{#Given}}
+                    <li><m>{{Formula}}.</m></li>
+                    {{/Given}},
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    {{#Closed}}
+                    <li><m>{{t0}}, {{t1}}, {{t2}}, {{t3}}, {{t4}}.</m></li>
+                    {{/Closed}},
+                </ul>
+            </li>
+            <li>
+                <m>{{tR1}}, {{tR2}}, {{tR3}}, {{tR4}}, {{tR5}}.</m>
+            </li>
+        </ol>
+    </answer>
+</exercise>

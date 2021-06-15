@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Let <m>\mathbf{R}</m> be the finite region bounded by the graphs of the following equations:
+        </p>
+        <ul>
+            {{#functions}}
+                <li><me>y={{eqn}}</me></li>
+            {{/functions}}
+        </ul> 
+        
+        In the following two ways, set up, but do not evaluate, definite integrals which represent the area of the region <m> \mathbf{R}. </m>
+        
+        <ol> <li>Integrate with respect to <m>x</m>.</li>
+        
+            <li>Integrate with respect to <m>y</m>.</li>
+        </ol>
+       
+        
+    </statement>
+    <answer>
+        <ol>
+                <li><me>\int_{ {{xlbound}} }^{ {{xubound}} }{{ansfx}}~dx</me></li>
+                <li><me>\int_{ {{ylbound}} }^{ {{yubound}} }{{ansfy}}~dy </me></li>
+        </ol> 
+    </answer>
+</exercise>

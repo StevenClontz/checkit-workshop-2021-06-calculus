@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    
+        
+       <!-- {{#infotype}} -->
+<!--             {{#equation}} -->
+     {{#eqnvars}}
+            
+            <statement>
+                <p>
+   Approximate the area under the curve <m>f(x)={{function}}</m> on the interval <m>[{{lbound}},{{ubound}}]</m> using a {{side}} Riemann sum with {{numintervals}} rectangles of uniform width. Show all of your work. 
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>{{answer}}</m>
+                </p>
+            </answer>
+    
+            {{/eqnvars}} 
+    
+    
+    
+    
+    
+</exercise>
+<!--             {{/equation}} -->
+<!--       {{/infotype}} -->
+    
+<!--             {{#table}}
+
+            
+            <statement>
+                <p>
+   Let <m> f(x)</m> be a function with some values given by the table below. Approximate the area under the curve <m>f(x)</m> on the interval <m>{{bounds}}</m> using a {{side}} Riemann sum with {{intervals}} rectangles of uniform width. Show all of your work. 
+                </p>
+            </statement>
+            <answer>
+                <p>
+                    <m>{{answer}}</m>
+                </p>
+            </answer>
+    
+
+            {{/table}}
+           -->
+      

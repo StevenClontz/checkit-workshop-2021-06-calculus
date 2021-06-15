@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Compute the exact value of each of the following definite integrals using the Fundamental Theorem of Calculus. Show all work, leave all answers in exact form, with no decimal approximations.
+        <ol>
+            {{#functions}}
+                <li><me>\int_{ {{a}} }^{ {{b}} }{{function}}~dx</me></li>
+            {{/functions}}
+        </ol> 
+        </p>
+    </statement>
+    <answer>
+        <p>
+           <ol>
+            {{#functions}}
+                <li><me>{{answer}}</me></li>
+            {{/functions}}
+        </ol> 
+        </p>
+    </answer>
+</exercise>

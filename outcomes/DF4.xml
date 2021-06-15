@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<exercise xmlns="https://spatext.clontz.org" version="0.0">
+    <statement>
+        <p>
+            Demonstrate and explain how to find the derivative of the following functions.
+            Be sure to explicitly denote which derivative rules (product, quotient, sum and difference, etc.) you are using in your work.
+        </p>
+        <ol>
+            {{#functions}}
+            <li><me>{{fn}}({{v}})= {{f}}</me></li>
+            {{/functions}}
+        </ol>
+    </statement>
+    <answer>
+        <ol>
+            {{#functions}}
+            <li><me>{{fn}}&apos; ({{v}})= {{dfdx}}</me></li>
+            {{/functions}}
+        </ol>
+    </answer>
+</exercise>
+
+
+
+
+
